@@ -8,9 +8,9 @@ import { Route, Switch } from "react-router";
 function App() {
   return (
     <div className="App">
-      <Header /><body>
-        <Route path="/" component={docapp} />
-      </body>
+      <Header />
+      <Route path="/" component={docapp} />
+
       <Footer />
     </div>
   );
